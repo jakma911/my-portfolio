@@ -18,10 +18,10 @@ const Aboutme = () => {
           </p>
 
           <ul className="space-y-2 text-sm">
-            <li><strong>Name:</strong> </li>
-            <li><strong>DOB:</strong> Jun 3, 2005</li>
-            <li><strong>Email:</strong> panharajamehang@gmail.com</li>
-            <li><strong>Phone:</strong> 0965908335</li>
+            <li><strong>Name:</strong> Hang Panharajame</li>
+            <li><strong>DOB:</strong> JUNE 3 2005</li>
+            <li><strong>Email:</strong> PANHARAJAME.HANG@gmail.com</li>
+            <li><strong>Phone:</strong> (+885) 965908335</li>
           </ul>
 
           <button className="mt-6 bg-yellow-400 text-black px-6 py-2 rounded-full">
