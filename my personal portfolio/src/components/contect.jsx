@@ -54,7 +54,6 @@ const Contact = () => {
   return (
     <div id="contact" className="bg-gray-900 text-white px-6 py-12">
       <div className="w-full max-w-6xl mx-auto">
-
         {/* Header */}
         <div className="text-center mb-12">
           <p className="text-gray-400 tracking-widest">get in touch</p>
@@ -63,10 +62,8 @@ const Contact = () => {
 
         {/* Content */}
         <div className="grid md:grid-cols-2 gap-10">
-
           {/* Left side */}
           <div className="space-y-6">
-            
             <div className="flex items-center gap-4 bg-[#2a2a2a] p-4 rounded-lg">
               <PhoneIcon className="text-white" />
               <span>+8801231</span>
@@ -81,14 +78,14 @@ const Contact = () => {
               <MapPinIcon className="text-white" />
               <span>Chittagong, Bangladesh</span>
             </div>
-
           </div>
 
           {/* Right side (Form) */}
           <form className="space-y-6">
-
             <div>
-              <label className="block mb-1 text-sm text-gray-400">Your Name</label>
+              <label className="block mb-1 text-sm text-gray-400">
+                Your Name
+              </label>
               <input
                 type="text"
                 className="w-full bg-[#2a2a2a] p-3 rounded-md outline-none"
@@ -96,7 +93,9 @@ const Contact = () => {
             </div>
 
             <div>
-              <label className="block mb-1 text-sm text-gray-400">Your Email</label>
+              <label className="block mb-1 text-sm text-gray-400">
+                Your Email
+              </label>
               <input
                 type="email"
                 className="w-full bg-[#2a2a2a] p-3 rounded-md outline-none"
@@ -104,7 +103,9 @@ const Contact = () => {
             </div>
 
             <div>
-              <label className="block mb-1 text-sm text-gray-400">Your message</label>
+              <label className="block mb-1 text-sm text-gray-400">
+                Your message
+              </label>
               <textarea
                 rows="5"
                 className="w-full bg-[#2a2a2a] p-3 rounded-md outline-none"
@@ -117,7 +118,6 @@ const Contact = () => {
             >
               Send
             </button>
-
           </form>
         </div>
       </div>
